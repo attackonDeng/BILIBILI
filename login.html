@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="shortcut icon" href="bitbug_favicon.ico" />
+    <link rel="stylesheet" href="../public/CSS/login.css">
+    <link rel="stylesheet" href="./font_2367644_6dtj66ccck6/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="nav-left">
+            <li class="bilibili-icon">
+                <a href="https://www.bilibili.com">
+                    <div class="iconfont icon-bilibili1"></div>
+                    <div class="name">
+                        <div class>主站</div>
+                        <div class="iconfont icon-down"></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bilibili.com/anime/?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.2">番剧</a>
+            </li>
+            <li>
+                <a href="https://game.bilibili.com/platform/?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.3">游戏中心</a>
+            </li>
+            <li>
+                <a href="https://live.bilibili.com/?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.4">直播</a>
+            </li>
+            <li>
+                <a href="https://show.bilibili.com/platform/home.html?msource=pc_web&spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.5">会员购</a>
+            </li>
+            <li>
+                <a href="https://manga.bilibili.com/?from=bill_top_mnav&spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.6">漫画</a>
+            </li>
+            <li>
+                <a href="https://www.bilibili.com/v/game/match/?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.7">赛事</a>
+            </li>
+            <li>
+                <a href="https://www.bilibili.com/blackboard/2021bnj-pre.html?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.8">拜年祭</a>
+            </li>
+            <li>
+                <a href="https://app.bilibili.com/?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.9">
+                    <img src="../public/imgs/手机 (1).png" alt="" width="20px"> 下载APP</a>
+            </li>
+        </ul>
+        <div class="searchbox">
+            <form action="" method="get">
+                <input type="text" class="text">
+            </form>
+            <div class="searchscope">
+                <img src="../public/imgs/搜索.png" alt="" width="20px" height="20px" class="img">
+            </div>
+
+        </div>
+        <ul class="nav-right">
+            <li class="login">
+                <a href="https://passport.bilibili.com/login"><img src="//static.hdslb.com/images/akari.jpg " class="img" width="32px" ;alt=""><span>登录</span></a>
+            </li>
+            <li class="resign">
+                <a href="https://passport.bilibili.com/register/phone.html?spm_id_from=333.130.b_696e7465726e6174696f6e616c486561646572.11#/">注册</a>
+            </li>
+            <li class="submit">
+                <a href="">投稿</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="topbanner">
+            <div class="topbanner-img">
+
+            </div>
+        </div>
+        <div class="loginline">
+            <div>登录</div>
+        </div>
+        <div class="loginbox">
+            <div class="login-left">
+                <div class="queto-code">
+                    <img src="../public/imgs/扫码.png" height="30px" width="30px" alt="">
+                    <img src="data:image/png;base64,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"
+                        width="140px" alt="">
+                </div>
+                <div class="queto-footer">
+                    <div class="word">
+                        <div class="word1">二维码已失效</div>
+                        <div class="word2">请使用<a href="https://app.bilibili.com">哔哩哔哩客户端</a><br>
+                            <div class="word3">扫码登录</div>
+                            <div class="word4">或扫码下载APP</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-right">
+                <form action="" method="get">
+                    <span class="passport-login">
+                        <a href="">密码登录</a></span>
+                    <span><a href="">短信登陆</a> </span>
+                    <span class="login-box">
+                        <div class="username"><input type="text" name="username" id="username"></div>
+                        <div class="password"><input type="password" name="password" id="password"></div>
+                        <div class="reminders">
+                     <input type="checkbox" name="rememberme" id="rememberme"><span class="rememberme">记住我</span> <span>不是自己电脑不要勾选此项</span>
+                    <a href="">无法验证？</a><a href="">忘记密码？</a>
+            </div>
+            <div class="buttons">
+                <div class="submit"><input type="submit" id="submit" value="登录" width="386px"></div>
+                <div class="resign-button">注册</div>
+            </div>
+            <div class="other-login">
+                <a href=""><img src="../public/imgs/微博.png" width="20px" alt="">微博账号登陆</a>
+                <a href=""><img src="../public/imgs/qq.png" width="20px" alt="">QQ账号登陆</a>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="tips">登录即代表你同意
+        <a href="">用户协议</a>和<a href="">隐私政策</a>
+    </div>
+    </div>
+    <div class="footer">
+        <ul class="nav-footer">
+            <li class="bilibili">
+                <div>bilibili</div>
+                <a href="">关于我们</a>
+                <a href="">友情链接</a>
+                <a href="">联系我们</a>
+                <a href="">隐私政策</a>
+                <a href="">用户协议</a>
+                <a href="">bilibili认证</a>
+                <a href="">加入我们</a>
+                <a href="">Investor Relations</a>
+            </li>
+            <li class="transition-door">
+                <div>传送门</div>
+                <a href="">协议汇总</a>
+                <a href="">帮助中心</a>
+                <a href="">名人堂</a>
+                <a href="">活动中心</a>
+                <a href="">用户反馈论坛</a>
+                <a href="">MCN管理中心</a>
+                <a href="">活动专题页</a>
+                <a href="">壁纸站</a>
+                <a href="">高级弹幕</a>
+                <a href="">侵权申诉</a>
+                <a href="">广告合作</a>
+                <a href="">企业号官网</a>
+            </li>
+            <li class="imgs">
+                <a href="">
+                    <img src="../public/imgs/下载.png" width="50px" alt="">
+                    <span>下载APP</span></a>
+                <a href="">
+                    <img src="../public/imgs/新浪微博.png" width="50px" alt="">
+                    <span>新浪微博</span>
+                </a>
+                <a href=""><img src="../public/imgs/微信.png" width="50px" alt="">
+                    <span>官方微信</span>
+                </a>
+                <div>
+                </div>
+            </li>
+        </ul>
+        <div class="legal-infor">
+            <div class="pics">
+                <img src="//s1.hdslb.com/bfs/seed/jinkela/footer-v2/images/partner.png" alt="">
+                <img src="https://s1.hdslb.com/bfs/static/jinkela/long/images/pic962110.png" width="100px" alt="">
+                <img src="//backup.hdslb.com/bfs/mainfront/confirm.png" width="100px" alt="">
+            </div>
+            <div class="legal-right">
+                <a href="https://static.hdslb.com/images/yyzz.png">营业执照</a>
+                <span>信息网络传播视听节目许可证：0910417</span><span>网络文化经营许可证 沪网文【2019】3804-274号</span><span> 广播电视节目制作经营许可证：（沪）字第01248号</span><span>增值电信业务经营许可证 沪B2-20100043</span>
+                <span>互联网ICP备案：沪ICP备13002172号-3</span><br>
+                <span>出版物经营许可证 沪批字第U6699 号</span> <span>互联网药品信息服务资格证 沪-非经营性-2016-0143</span><span>营业性演出许可证 沪市文演（经）00-2253</span>
+                <p>违法不良信息举报邮箱：help@bilibili.com |违法不良信息举报电话：4006262233转1</p>
+                <a href="http://www.shjbzx.cn" class="office">上海互联网举报中心 | </a>
+                <a href="https://jbts.mct.gov.cn/" class="office"> 12318全国文化市场举报网站 |</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002002436" class="office">沪公网安备31011002002436号 | </a>
+                <a href="mailto:userreport@bilibili.com" class="office">儿童色情信息举报专区 | </a>
+                <a href="http://www.shdf.gov.cn/shdf/channels/740.html">扫黄打非举报</a>
+                <br>
+                <span>网上有害信息举报专区：</span>
+                <a href="https://www.12377.cn">中国互联网违法和不良信息举报中心</a>
+                <br>
+                <span>亲爱的市民朋友，上海警方反诈劝阻电话“96110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。</span>
+                <br>
+                <span>公司名称：上海宽娱数码科技有限公司|公司地址：上海市杨浦区政立路485号|电话：021-25099888</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
