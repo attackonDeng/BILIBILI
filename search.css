@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbanner {
+    height: 60px;
+}
+
+.header {
+    height: 56px;
+    display: flex;
+}
+
+
+/* header */
+
+
+/* 导航栏左半部 */
+
+.nav-left {
+    width: 520px;
+    height: 50px;
+    margin-left: 20px;
+    margin: 10px 0px 0px 20px;
+    display: flex;
+}
+
+
+/* biliblili logo */
+
+.nav-left li {
+    list-style: none;
+    padding: 7px;
+    margin-left: -4px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.nav-left .bilibili-icon {
+    padding: 0px;
+    width: 100px;
+    margin-top: -5px;
+}
+
+.nav-left .bilibili-icon a {
+    display: flex;
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+}
+
+.nav-left .bilibili-icon .name {
+    width: 40px;
+}
+
+.bilibili-icon img {
+    height: 36px;
+    margin: auto;
+    line-height: 36px;
+}
+
+.name div {
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+
+
+/* 番剧等 */
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 搜索框 */
+
+.searchbox {
+    display: flex;
+    width: 500px;
+    height: 36px;
+    margin: auto 10px;
+    background-color: rgb(244, 244, 244);
+    border-color: rgba(53, 52, 52, 0.5);
+    border: 2px;
+}
+
+.searchbox .text {
+    border: 1px;
+    outline: none;
+    width: 444px;
+    height: 30px;
+    margin: 3px 0px 1px 20px;
+    background-color: rgb(244, 244, 244);
+}
+
+.searchbox .searchscope {
+    width: 48px;
+    height: 36px;
+    background-color: rgba(231, 231, 231);
+}
+
+.searchscope .img {
+    margin: 8px;
+}
+
+
+/* 导航栏右端 登录注册和投稿 */
+
+.nav-right {
+    display: flex;
+    list-style: none;
+    width: 420px;
+    height: 36px;
+    margin: auto 10px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.nav-right li {
+    width: 40px;
+}
+
+.nav-right .create-center {
+    width: 80px;
+}
+
+.nav-right .img {
+    border-radius: 32px;
+    vertical-align: middle;
+}
+
+.nav-right .login {
+    width: 90px;
+    line-height: 36px;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: black;
+}
+
+
+/* resign */
+
+.topbanner.nav-right li {
+    text-align: center;
+    padding-top: 4px;
+}
+
+.nav-right li a {
+    color: black;
+}
+
+.nav-right .news {
+    text-align: center;
+    width: 40px;
+    height: 36px;
+    color: black;
+}
+
+.nav-right .news a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.nav-right .submit {
+    width: 100px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: rgb(251, 114, 153);
+    text-align: center;
+    line-height: 36px;
+}
+
+.nav-right .submit a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* 底部导航栏 */
+
+.footer {
+    height: 408px;
+    background-color: rgb(246, 249, 250);
+    padding-left: 160px;
+}
+
+.nav-footer {
+    display: flex;
+}
+
+.nav-footer a {
+    color: black;
+}
+
+.bilibili {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 150px;
+    border-right: 1px solid;
+    border-color: rgb(214, 216, 214);
+}
+
+.bilibili a {
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.bilibili div {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(214, 216, 214);
+}
+
+.transition-door {
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    height: 150px;
+    border-right: 1px solid;
+    border-color: rgb(214, 216, 214);
+    padding: 0px 40px;
+    margin-right: 40px;
+}
+
+.transition-door div {
+    width: 100%;
+    color: rgb(214, 216, 214);
+}
+
+.transition-door a {
+    margin-bottom: 10px;
+    width: 160px;
+    height: 20px;
+    font-size: 14px;
+}
+
+
+/* imgs */
+
+.imgs {
+    display: flex;
+    width: 304px;
+    height: 150px;
+    padding: 20px 50px 20px 20px;
+}
+
+.imgs img {
+    margin-right: 20px;
+}
+
+
+/* 法律相关信息 */
+
+.legal-infor {
+    height: 198px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.legal-infor .pics {
+    width: 100px;
+    height: 168px;
+    margin-right: 20px;
+}
+
+.legal-infor .legal-right {
+    width: 1400px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
+.legal-right span {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.footer .legal-right a {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
+
+/* main  */
+
+.main {
+    width: 980px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.main .search-box {
+    display: flex;
+    margin: 0px auto;
+    width: 587px;
+    height: 80px;
+    padding: 10px;
+}
+
+.icon-bilibili1 {
+    width: 60px;
+    margin: auto 20px;
+}
+
+.search-box .search {
+    width: 330px;
+    height: 44px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: auto 0px;
+}
+.search-box {
+    
+}
